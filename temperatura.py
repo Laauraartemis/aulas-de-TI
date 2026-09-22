@@ -1,6 +1,10 @@
-temperatura = int(input("adicione o a temperatura: "))
+temperatura = float(input("digite a temperatura: "))
 
-if temperatura >=30:
-    print("está quente")
+if temperatura >=35:
+    print("muito quente")
+elif temperatura >=30:
+    print("quente")
+elif temperatura >=18:
+    print("frio")
 else:
-    print("temperatura agradavel")
+    print("muito frio")
